@@ -1,0 +1,30 @@
+<h2>{{type}}</h2>
+<h6>Ptr_dominios</h6>
+
+<div class="text-success"><hr></div>
+
+<form class="row g-3">
+
+    <div class="col-md-4">
+        <label for="validationServer04" class="form-label">Descripción</label>
+        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+        </select>
+        <div id="validationServer04Feedback" class="invalid-feedback">
+            Please select a valid state.
+        </div>
+    </div>
+    
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">{{type}}</button>
+      </div>
+
+      <p><small>
+          <a routerLink="../">Back to List</a>
+      </small></p>
+    
+</form>
+<div><hr></div>
+<p><small class="text-muted">@2022</small></p>

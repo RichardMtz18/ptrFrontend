@@ -1,0 +1,133 @@
+<div #sideBar class="sidebar" [ngClass]="{'open': !!open}">
+    <div class="logo-details">
+        <div class="logo_name">PTR</div>
+        <i class='bi bi-list' id="btn"  (click)="openNav()" [ngClass]="{'bi-list':!open, 'bi-filter-right': open}"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a  routerLink="acciones">
+          <i class="bi bi-hand-index-thumb"></i>
+          <span class="links_name">Acciones</span>
+        </a>
+         <span class="tooltip">Acciones</span> 
+      </li>
+
+      <li>
+       <a routerLink="dominios">
+        <i class="bi bi-globe2"></i>
+         <span class="links_name">Dominios</span>
+       </a>
+       <span class="tooltip">Dominios</span>
+     </li>
+
+     <li>
+       <a routerLink="objetos">
+        <i class="bi bi-box"></i>
+         <span class="links_name">Objetos</span>
+       </a>
+       <span class="tooltip">Objetos</span>
+     </li>
+
+     <li>
+       <a routerLink="operadores">
+        <i class="bi bi-code-slash"></i>
+         <span class="links_name">Operadores</span>
+       </a>
+       <span class="tooltip">Operadores</span>
+     </li>
+
+     <li>
+       <a  routerLink="procesos-det">
+        <i class="bi bi-clipboard-pulse"></i>
+         <span class="links_name">Procesos Det</span>
+       </a>
+       <span class="tooltip">Procesos Det</span>
+     </li>
+     
+     <li>
+       <a routerLink="prosesos">
+        <i class="bi bi-activity"></i>
+         <span class="links_name">Procesos</span>
+       </a>
+       <span class="tooltip">Procesos</span>
+     </li>
+     
+     <li>
+       <a routerLink="prosesos-tareas">
+        <i class="bi bi-cpu"></i>
+      <span class="links_name">Procesos Tareas</span>
+       </a>
+       <span class="tooltip">Procesos Tareas</span>
+     </li>
+
+     <li>
+       <a routerLink="propiedades">
+        <i class="bi bi-sliders"></i>
+         <span class="links_name">Propiedades</span>
+       </a>
+       <span class="tooltip">Propiedades</span>
+     </li>
+
+     <li>
+      <a routerLink="reglas">
+        <i class="bi bi-shield"></i>
+        <span class="links_name">Reglas</span>
+      </a>
+      <span class="tooltip">Reglas</span>
+    </li>
+    <li>
+
+      <a routerLink="reglas-det">
+        <i class="bi bi-shield-shaded"></i>
+        <span class="links_name">Reglas Det</span>
+      </a>
+      <span class="tooltip">Reglas Det</span>
+    </li>
+    <li>
+
+      <a routerLink="sentencias">
+        <i class="bi bi-filter-circle"></i>
+        <span class="links_name">Sentencias</span>
+      </a>
+      <span class="tooltip">Sentencias</span>
+    </li>
+    <li>
+
+      <a routerLink="tareas">
+        <i class="bi bi-receipt-cutoff"></i>
+        <span class="links_name">Tareas</span>
+      </a>
+      <span class="tooltip">Tareas</span>
+    </li>
+
+    <li>
+      <a routerLink="tipo-tareas">
+        <i class="bi bi-window-dock"></i>
+        <span class="links_name">Tipo Tarea</span>
+      </a>
+      <span class="tooltip">Tipo Tarea</span>
+    </li>
+
+    <li>
+      <a routerLink="tareas-reglas">
+        <i class="bi bi-lock"></i>
+        <span class="links_name">Tareas Reglas</span>
+      </a>
+      <span class="tooltip">Tareas Reglas</span>
+    </li>
+
+    <li>
+      <a routerLink="tipo-datos">
+        <i class="bi bi-file-binary"></i>
+        <span class="links_name">Tipo Dato</span>
+      </a>
+      <span class="tooltip">Tipo Datos</span>
+    </li>
+
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="container-fluid">
+        <router-outlet></router-outlet>
+    </div>
+  </section>
