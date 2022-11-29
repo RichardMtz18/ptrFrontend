@@ -1,50 +1,49 @@
-<h2>Crear</h2>
-<h6>PTR_Procesos Tareas</h6>
-        <div class="text-success"><hr></div>
-        <div class="row justify-content-center">
-          <form class="row g-3">
-            <div class="col-md-3">
-                <label for="validationCustom04" class="form-label">Proceso</label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
+<section class="add-procesosTareas-sec">
+  <h2>Crear</h2>
+  <h6>PTR_Procesos Tareas</h6>
+  <div class="text-success"><hr /></div>
+  <div class="row justify-content-center">
+    <form class="row g-3">
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">Proceso</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-                <label for="validationCustom04" class="form-label">Tarea</label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-                
-                <label for="validationTooltip03" class="form-label">Orden</label>
-                <input type="text" class="form-control" id="validationTooltip03" required>
-                <div class="invalid-tooltip">
-                  Please provide an order.
-                </div>
-              
-                 
-                <label for="validationTooltip03" class="form-label">Valor</label>
-                <input type="text" class="form-control" id="validationTooltip03" required>
-                <div class="invalid-tooltip">
-                  Please provide a value.
-                </div>
-            </div>
-       
+        <label for="validationCustom04" class="form-label">Tarea</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-          
+        <label for="validationTooltip03" class="form-label">Orden</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationTooltip03"
+          required
+        />
+        <div class="invalid-tooltip">Please provide an order.</div>
 
-            <div class="col-12">
-                <button type="button" class="btn btn-primary">Create</button>
-            </div>
-            <a routerLink="../">Back to List</a>
-          </form>
+        <label for="validationTooltip03" class="form-label">Valor</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationTooltip03"
+          required
+        />
+        <div class="invalid-tooltip">Please provide a value.</div>
+      </div>
 
-    </div>
-    <div class="text-success"><hr></div>
-    <a><small class="text-muted">@2022</small></a>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary">Create</button>
+      </div>
+      <a routerLink="../">Back to List</a>
+    </form>
+  </div>
+  <div class="text-success"><hr /></div>
+  <a><small class="text-muted">@2022</small></a>
+</section>

@@ -1,7 +1,7 @@
-<app-mainPage title="PTR Tareas"  LinkAddNew="add-tareas"></app-mainPage>
-
-<table class="table table-striped">
-  <thead>
+<section class="tareas">
+  <app-mainPage title="PTR Tareas" LinkAddNew="add-tareas"></app-mainPage>
+  <table class="table table-striped">
+    <thead>
       <tr>
         <th scope="col">N° Tarea</th>
         <th scope="col">Tipo Tarea</th>
@@ -15,9 +15,13 @@
         <td>Mark</td>
         <td>Mark</td>
         <td>
-            <a routerLink="edit-tareas"><button type="button" class="btn btn-primary">Editar</button></a>
-            <a routerLink="detail-tareas"><button type="button" class="btn btn-primary">Detalle</button></a>
-            <button type="button" class="btn btn-primary">Eliminar</button>
+          <a routerLink="edit-tareas"
+            ><button type="button" class="btn btn-success">Editar</button></a
+          >
+          <a routerLink="detail-tareas"
+            ><button type="button" class="btn btn-warning">Detalle</button></a
+          >
+          <button type="button" class="btn btn-danger">Eliminar</button>
         </td>
       </tr>
       <tr>
@@ -25,15 +29,18 @@
         <td>Jacob</td>
         <td>Jacob</td>
         <td>
-          <a routerLink="edit-tareas"><button type="button" class="btn btn-primary">Editar</button></a>
-          <button type="button" class="btn btn-primary">Detalle</button>
-          <button type="button" class="btn btn-primary">Eliminar</button>
+          <a routerLink="edit-tareas"
+            ><button type="button" class="btn btn-success">Editar</button></a
+          >
+          <button type="button" class="btn btn-warning">Detalle</button>
+          <button type="button" class="btn btn-danger">Eliminar</button>
         </td>
       </tr>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 
-<div><hr></div>
-<div class="text-center">
-  <button type="button" class="btn btn-primary btn-sm">1</button>
-</div>
+  <div><hr /></div>
+  <div class="text-center">
+    <button type="button" class="btn btn-primary btn-sm">1</button>
+  </div>
+</section>

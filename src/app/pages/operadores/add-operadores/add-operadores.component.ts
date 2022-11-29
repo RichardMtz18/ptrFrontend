@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-add-operadores',
   templateUrl: './add-operadores.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./add-operadores.component.css']
 })
 export class AddOperadoresComponent implements OnInit {
 

@@ -1,72 +1,67 @@
-<h2>Editar</h2>
-<h6>PTR_Reglas Det</h6>
-        <div class="text-success"><hr></div>
+<section class="edit-tipo-datos">
+  <h2>Editar</h2>
+  <h6>PTR_Reglas Det</h6>
+  <div class="text-success"><hr /></div>
 
-        <div class="row justify-content-center">
+  <div class="row justify-content-center">
+    <form class="row g-3">
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">Tipo de Tarea</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-            <form class="row g-3">
+        <label for="validationCustom04" class="form-label"
+          >Tipo de Sentencia</label
+        >
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-                <div class="col-md-3">
-                    <label for="validationCustom04" class="form-label">Tipo de Tarea</label>
-                    <select class="form-select" id="validationCustom04" required>
-                      <option selected disabled value="">Choose...</option>
-                      <option>...</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid state.
-                    </div>
+        <label for="validationCustom04" class="form-label">Propiedad</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-                    <label for="validationCustom04" class="form-label">Tipo de Sentencia</label>
-                    <select class="form-select" id="validationCustom04" required>
-                      <option selected disabled value="">Choose...</option>
-                      <option>...</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid state.
-                    </div>
+        <label for="validationCustom04" class="form-label">Operador</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
 
-                    <label for="validationCustom04" class="form-label">Propiedad</label>
-                    <select class="form-select" id="validationCustom04" required>
-                      <option selected disabled value="">Choose...</option>
-                      <option>...</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid state.
-                    </div>
+        <label for="validationTooltip03" class="form-label">Order</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationTooltip03"
+          required
+        />
+        <div class="invalid-tooltip">Please provide an order.</div>
 
-                    <label for="validationCustom04" class="form-label">Operador</label>
-                    <select class="form-select" id="validationCustom04" required>
-                      <option selected disabled value="">Choose...</option>
-                      <option>...</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid state.
-                    </div>
+        <label for="validationTooltip03" class="form-label">Value</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationTooltip03"
+          required
+        />
+        <div class="invalid-tooltip">Please provide a value.</div>
+      </div>
 
-                    
-                    <label for="validationTooltip03" class="form-label">Order</label>
-                    <input type="text" class="form-control" id="validationTooltip03" required>
-                    <div class="invalid-tooltip">
-                      Please provide an order.
-                    </div>
-                  
-                    
-                    <label for="validationTooltip03" class="form-label">Value</label>
-                    <input type="text" class="form-control" id="validationTooltip03" required>
-                    <div class="invalid-tooltip">
-                      Please provide a value.
-                    </div>
-                  </div>
-  
-              
-                  
-                <div class="col-12">
-                    <button type="button" class="btn btn-primary">Editar</button>
-                </div>
-                <a routerLink="../">Back to List</a>
-            </form>
-  
-        <div class="text-success"><hr></div>
-        <a><small class="text-muted">@2022</small></a>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary">Editar</button>
+      </div>
+      <a routerLink="../">Back to List</a>
+    </form>
 
-      
+    <div class="text-success"><hr /></div>
+    <a><small class="text-muted">@2022</small></a>
+  </div>
+</section>

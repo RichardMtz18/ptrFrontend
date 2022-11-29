@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-edit-objetos',
   templateUrl: './edit-objetos.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./edit-objetos.component.css']
 })
 export class EditObjetosComponent implements OnInit {
 

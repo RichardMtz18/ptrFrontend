@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-add-dominios',
   templateUrl: './add-dominios.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./add-dominios.component.css']
 })
 export class AddDominiosComponent implements OnInit {
 

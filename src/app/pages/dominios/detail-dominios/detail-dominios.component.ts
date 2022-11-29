@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-detail-dominios',
   templateUrl: './detail-dominios.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./detail-dominios.component.css']
 })
 export class DetailDominiosComponent implements OnInit {
 

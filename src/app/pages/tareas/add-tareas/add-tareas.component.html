@@ -1,32 +1,32 @@
-<h2>Create</h2>
-<h6>ptr_tareas</h6>
-<hr>
-
-<form class="row g-3 needs-validation" novalidate>
+<section class="add-tareas-sec">
+  <h2>Create</h2>
+  <h6>ptr_tareas</h6>
+  <hr />
+  <form class="row g-3 needs-validation" novalidate>
     <div class="col-md-3">
       <label for="validationCustom04" class="form-label">Tipo de Tarea</label>
       <select class="form-select" id="validationCustom04" required>
         <option selected disabled value="">Choose...</option>
         <option>...</option>
       </select>
-      <div class="invalid-feedback">
-        Please select a valid state.
-      </div>
+      <div class="invalid-feedback">Please select a valid state.</div>
 
-    <div class="col-md-12">
-      <label for="validationCustom01" class="form-label">Descripcion</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
-      <div class="valid-feedback">
-        Looks good!
+      <div class="col-md-12">
+        <label for="validationCustom01" class="form-label">Descripcion</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom01"
+          required
+        />
+        <div class="valid-feedback">Looks good!</div>
       </div>
     </div>
-</div>
     <div class="col-12">
       <button class="btn btn-primary" type="submit">Create</button>
     </div>
   </form>
-  <!--No funciona el routerLink
-  <a routerLink="../">Back to List</a>-->
-  <a href="../">Back to List</a>
-<hr>
-<p><small class="text-muted">@2022</small></p>
+  <a routerLink="../">Back to List</a>
+  <hr />
+  <p><small class="text-muted">@2022</small></p>
+</section>

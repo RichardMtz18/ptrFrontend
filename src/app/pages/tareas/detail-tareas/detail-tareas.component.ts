@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-detail-tareas',
   templateUrl: './detail-tareas.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./detail-tareas.component.css']
 })
 export class DetailTareasComponent implements OnInit {
 

@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-edit-procesos-tareas',
   templateUrl: './edit-procesos-tareas.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./edit-procesos-tareas.component.css']
 })
 export class EditProcesosTareasComponent implements OnInit {
 

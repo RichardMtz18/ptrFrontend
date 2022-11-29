@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-add-objetos',
   templateUrl: './add-objetos.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./add-objetos.component.css']
 })
 export class AddObjetosComponent implements OnInit {
 

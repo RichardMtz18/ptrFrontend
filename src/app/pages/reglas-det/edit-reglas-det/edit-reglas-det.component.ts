@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-edit-reglas-det',
   templateUrl: './edit-reglas-det.component.html',
-  //styleUrls: ['./acciones.component.css']
+  styleUrls: ['./edit-reglas-det.component.css']
 })
 export class EditReglasDetComponent implements OnInit {
 
